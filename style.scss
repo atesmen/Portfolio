@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Corinthia:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Cinzel";
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    &-btn {
+        li {
+            list-style: none;
+            display: inline-block;
+            border-right: 2px solid #000;
+            padding: 0 1rem;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
+
+.name {
+    background-image: url(./images/trees.png);
+    height: 29rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7;
+    margin: 5rem 0;
+    position: absolute;
+}
