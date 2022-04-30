@@ -19,6 +19,7 @@ body {
   font-size: 32px;
   margin-top: 1rem;
   padding: 0 1rem;
+  width: 100%;
 }
 
 .header-btn li {
@@ -42,5 +43,6 @@ body {
   opacity: .7;
   margin: 5rem 0;
   position: absolute;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
