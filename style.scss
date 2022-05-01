@@ -74,6 +74,7 @@ body {
     height: 30rem;
     justify-content: space-around;
     font-size: 32px;
+    margin-bottom: 3rem;
     &-skills {
         display: flex;
         flex-direction: column;
@@ -89,7 +90,7 @@ body {
         justify-content: space-evenly;
         width: 50%;
         height: 100%;
-        padding-left: 10rem;
+        padding-left: 8rem;
         padding-right: 2rem;
         h1 {
             text-align: center;
@@ -97,5 +98,22 @@ body {
     }
     &-divider {
         border: .5px solid black;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    &-title {
+        h1 {
+            font-size: 32px;
+            text-align: center;
+        }
+    }
+    &-part {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
