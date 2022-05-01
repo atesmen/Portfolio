@@ -149,11 +149,20 @@ body {
           flex-direction: column;
   width: 100%;
   height: auto;
+  margin-bottom: 10rem;
 }
 
-.projects-title h1 {
+.projects h1 {
   font-size: 32px;
   text-align: center;
+}
+
+.projects P {
+  font-size: 32px;
+}
+
+.projects-title {
+  margin-bottom: 5rem;
 }
 
 .projects-part {
@@ -162,5 +171,63 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.projects-apple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 47.5rem;
+  padding-left: 7.5rem;
+  border-left: 2px solid black;
+}
+
+.projects-sony {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 55rem;
+  height: 10rem;
+}
+
+.projects-sony img {
+  padding-right: 3rem;
+}
+
+.projects-asus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 47.5rem;
+  padding-left: 7.5rem;
+  border-left: 2px solid black;
+}
+
+.projects-asus img {
+  padding-left: 3rem;
+}
+
+.projects-spotify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10rem;
+  margin-right: 55rem;
+}
+
+.projects-spotify img {
+  padding-right: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
