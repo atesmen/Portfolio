@@ -188,3 +188,96 @@ body {
         }
     }
 }
+
+@media screen and (max-width:375px) {
+    body {
+        text-align: center;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+
+.header {
+    justify-content: flex-start;
+    padding: 0;
+    max-width: 375px;
+    font-size: 28px;
+}
+
+.name {
+    height: 9rem;
+    margin-bottom: 2rem;
+    h1 {
+        font-size: 42px;
+        
+    }
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    text-align: center;
+    &-skills {
+        padding: 0;
+        width: 100%;
+        margin: 1rem 0;
+        align-items: center;
+    }
+    &-me {
+        padding: 0;
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
+
+.projects {
+    margin-bottom: 2rem;
+    img {
+        max-width: 300px;
+        padding: 0;
+    }
+    &-part {
+        display: flex;
+        flex-direction: column;
+    }
+    &-apple {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        border: none;
+    }
+    &-sony{
+        margin: 0;
+        padding: 0;
+        height: max-content;
+        flex-direction: column-reverse;
+    }
+    &-asus {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        border: none;
+    }
+    &-spotify {
+        margin: 0;
+        padding: 0;
+        height: max-content;
+        flex-direction: column-reverse;
+    }
+}
+.contacts {
+    height: 25rem;
+    p {
+        font-size: 22px;
+    }
+    img {
+        height: 25rem;
+    }
+    &-container {
+        flex-direction: column;
+        margin: 2rem 1rem 1rem 1rem;
+    }
+}
+}
